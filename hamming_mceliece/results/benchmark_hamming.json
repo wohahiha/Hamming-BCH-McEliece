@@ -1,0 +1,113 @@
+{
+  "env": {
+    "time": "2025-12-15T11:40:54",
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "machine": "AMD64",
+    "processor": "AMD64 Family 25 Model 116 Stepping 1, AuthenticAMD"
+  },
+  "params": {
+    "Ls": [
+      5,
+      10,
+      15,
+      20
+    ],
+    "ts": [
+      1
+    ],
+    "repeat_keygen": 10,
+    "repeat_encdec": 10,
+    "seed": 98765
+  },
+  "results": [
+    {
+      "L": 5,
+      "n": 75,
+      "k": 55,
+      "t_err": 1,
+      "repeat_keygen": 10,
+      "repeat_encdec": 10,
+      "success_rate": 1.0,
+      "keygen_ms_mean": 2.46002,
+      "keygen_ms_std": 1.042506633925069,
+      "encrypt_ms_mean": 0.03254,
+      "encrypt_ms_std": 0.007568090908544901,
+      "decrypt_ms_mean": 0.07731,
+      "decrypt_ms_std": 0.006899669879381512,
+      "pubkey_bytes_mean": 516.0,
+      "pubkey_bytes_std": 0.0,
+      "privkey_bytes_mean": 445.0,
+      "privkey_bytes_std": 0.0,
+      "plaintext_bytes_raw": 6.875,
+      "ciphertext_bytes_raw": 9.375,
+      "expansion_ratio_n_over_k": 1.3636363636363635
+    },
+    {
+      "L": 10,
+      "n": 150,
+      "k": 110,
+      "t_err": 1,
+      "repeat_keygen": 10,
+      "repeat_encdec": 10,
+      "success_rate": 1.0,
+      "keygen_ms_mean": 13.71358,
+      "keygen_ms_std": 7.870146608234888,
+      "encrypt_ms_mean": 0.05082,
+      "encrypt_ms_std": 0.005855443810867133,
+      "decrypt_ms_mean": 0.14917,
+      "decrypt_ms_std": 0.006003526741285766,
+      "pubkey_bytes_mean": 2063.0,
+      "pubkey_bytes_std": 0.0,
+      "privkey_bytes_mean": 1663.0,
+      "privkey_bytes_std": 0.0,
+      "plaintext_bytes_raw": 13.75,
+      "ciphertext_bytes_raw": 18.75,
+      "expansion_ratio_n_over_k": 1.3636363636363635
+    },
+    {
+      "L": 15,
+      "n": 225,
+      "k": 165,
+      "t_err": 1,
+      "repeat_keygen": 10,
+      "repeat_encdec": 10,
+      "success_rate": 1.0,
+      "keygen_ms_mean": 22.64146,
+      "keygen_ms_std": 12.954701444666506,
+      "encrypt_ms_mean": 0.07031,
+      "encrypt_ms_std": 0.007602258436368325,
+      "decrypt_ms_mean": 0.22311,
+      "decrypt_ms_std": 0.006920091521552778,
+      "pubkey_bytes_mean": 4641.0,
+      "pubkey_bytes_std": 0.0,
+      "privkey_bytes_mean": 3629.0,
+      "privkey_bytes_std": 0.0,
+      "plaintext_bytes_raw": 20.625,
+      "ciphertext_bytes_raw": 28.125,
+      "expansion_ratio_n_over_k": 1.3636363636363635
+    },
+    {
+      "L": 20,
+      "n": 300,
+      "k": 220,
+      "t_err": 1,
+      "repeat_keygen": 10,
+      "repeat_encdec": 10,
+      "success_rate": 1.0,
+      "keygen_ms_mean": 44.71088,
+      "keygen_ms_std": 14.262933422749253,
+      "encrypt_ms_mean": 0.12508,
+      "encrypt_ms_std": 0.04650519206377809,
+      "decrypt_ms_mean": 0.31827,
+      "decrypt_ms_std": 0.05719664034422535,
+      "pubkey_bytes_mean": 8250.0,
+      "pubkey_bytes_std": 0.0,
+      "privkey_bytes_mean": 6388.0,
+      "privkey_bytes_std": 0.0,
+      "plaintext_bytes_raw": 27.5,
+      "ciphertext_bytes_raw": 37.5,
+      "expansion_ratio_n_over_k": 1.3636363636363635
+    }
+  ]
+}

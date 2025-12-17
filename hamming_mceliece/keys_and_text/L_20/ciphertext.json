@@ -1,0 +1,8 @@
+{
+  "scheme": "block_hamming_mceliece_toy",
+  "n": 300,
+  "k": 220,
+  "L": 20,
+  "t_err": 1,
+  "ct_hex": "0x2255fec43195376536727f30bce4d587de959991c511684ed0b9d7980688468a10d2452a48"
+}
