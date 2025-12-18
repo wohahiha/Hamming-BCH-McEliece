@@ -6,6 +6,8 @@
 ---
 
 ## 目录结构
+
+```
 /code/                          # 根目录（顶层）
 ├── hamming_mceliece/           # 汉明版McEliece核心模块目录
 │   ├── figures/                # 存储生成的图表（按照下面命令行运行之后生成）
@@ -50,6 +52,7 @@
 ├── run_bch_benchmark.py        # BCH版性能对比测试脚本
 ├── README.md                   # 环境配置+运行说明
 └── requirements.txt            # 依赖包列表
+```
 
 
 ## 依赖安装
