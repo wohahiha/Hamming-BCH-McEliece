@@ -16,7 +16,6 @@
 - benchmark 脚本，用于重复实验并输出 CSV/JSON 结果。
 - 绘图脚本，用于从实验结果生成运行时间、密钥大小、密文扩张率和解密成功率图表。
 - 安全性估计脚本，用于给出课程实验口径下的粗略安全位估算。
-- 附带课程报告 Markdown/DOCX 和展示 PPTX。
 
 ## 技术栈
 
@@ -165,15 +164,12 @@ Hamming-BCH-McEliece/
 ├── run_hamming_benchmark.py
 ├── run_bch_benchmark.py
 ├── requirements.txt
-├── Hamming-BCH-McEliece.pptx
-├── 基于分块级联 Hamming 码与 BCH 码的 McEliece 公钥密码体制设计与分析.md
-├── 基于分块级联 Hamming 码与 BCH 码的 McEliece 公钥密码体制设计与分析.docx
 └── README.md
 ```
 
 ## 安全说明
 
-本项目是 educational toy implementation，重点是展示 McEliece 体制、纠错码结构、实验指标和课程报告分析流程。它没有经过生产级密码工程审计，也没有实现生产系统所需的常数时间防护、侧信道防护、标准化参数选择、密钥封装协议、随机数安全审计或完整异常处理。
+本项目是 educational toy implementation，重点是展示 McEliece 体制、纠错码结构、实验指标和实验分析流程。它没有经过生产级密码工程审计，也没有实现生产系统所需的常数时间防护、侧信道防护、标准化参数选择、密钥封装协议、随机数安全审计或完整异常处理。
 
 请不要将本项目直接用于真实通信、生产加密、密钥交换或任何需要实际安全保证的场景。
 

@@ -179,3 +179,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Local course documents and presentation artifacts
+Hamming-BCH-McEliece.pptx
+基于分块级联 Hamming 码与 BCH 码的 McEliece 公钥密码体制设计与分析.md
+基于分块级联 Hamming 码与 BCH 码的 McEliece 公钥密码体制设计与分析.docx
