@@ -1,6 +1,6 @@
 # Hamming-BCH-McEliece
 
-本仓库是一个课程/实验性质的 McEliece 公钥加密系统实现，用于对比分块级联 Hamming 码与 BCH 码在 McEliece 体制中的密钥规模、运行时间、密文扩张率、解密成功率和安全性估计表现。
+本仓库是一个实验性质的 McEliece 公钥加密系统实现，用于对比分块级联 Hamming 码与 BCH 码在 McEliece 体制中的密钥规模、运行时间、密文扩张率、解密成功率和安全性估计表现。
 
 项目包含两条实现路线：
 
@@ -14,7 +14,7 @@
 - 快速 demo 脚本，用于验证 KeyGen -> Encrypt -> Decrypt 的完整链路。
 - benchmark 脚本，用于重复实验并输出 CSV/JSON 结果。
 - 绘图脚本，用于从实验结果生成运行时间、密钥大小、密文扩张率和解密成功率图表。
-- 安全性估计脚本，用于给出课程实验口径下的粗略安全位估算。
+- 安全性估计脚本，用于给出课程实验的粗略安全位估算。
 
 ## 技术栈
 
@@ -41,19 +41,6 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-
-## 运行注意事项
-
-当前脚本保留了课程作业阶段的包相对导入写法，例如：
-
-```python
-from .hamming_mceliece.keygen_hamming import keygen
-from .bch_mceliece.keygen_bch import keygen
-```
-
-因此脚本需要作为 Python 包模块运行，而不是直接用 `python run_hamming_demo.py` 运行。仓库名 `Hamming-BCH-McEliece` 含有连字符，不能直接作为 `python -m` 的包名。
-
-如果沿用课程目录结构，可将本仓库内容放在一个合法 Python 包目录中，例如 `code/`，并从它的父目录运行下面的命令。本 README 只说明现有代码的运行约束，不在本次文档更新中修改入口脚本或导入方式。
 
 ## 快速演示
 
@@ -120,8 +107,6 @@ python -m code.bch_mceliece.plot_bch
 python -m code.hamming_mceliece.security_hamming
 python -m code.bch_mceliece.security_bch
 ```
-
-安全性估计为课程实验中的代码辅助估算，主要用于比较参数趋势和说明设计取舍，不应视为严格密码安全证明。
 
 ## 输出文件
 
