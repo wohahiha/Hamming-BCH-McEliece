@@ -7,7 +7,6 @@
 - `hamming_mceliece/`：基于分块 Hamming 码的 McEliece toy implementation。
 - `bch_mceliece/`：基于分块 BCH 码的 McEliece toy implementation。
 
-> 说明：本项目用于课程实验、算法理解和结果复现实验，不是生产级密码系统实现。
 
 ## 功能特性
 
