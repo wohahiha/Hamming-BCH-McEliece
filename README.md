@@ -133,8 +133,6 @@ python -m code.bch_mceliece.security_bch
 - `bch_mceliece/results/`：BCH benchmark 的原始 CSV 和汇总 JSON。
 - `bch_mceliece/figures/`：BCH 版本实验图表。
 
-仓库中已保留部分实验结果和图表，便于直接查看课程实验输出。
-
 ## 项目结构
 
 ```text
@@ -165,12 +163,6 @@ Hamming-BCH-McEliece/
 ├── requirements.txt
 └── README.md
 ```
-
-## 安全说明
-
-本项目是 educational toy implementation，重点是展示 McEliece 体制、纠错码结构、实验指标和实验分析流程。它没有经过生产级密码工程审计，也没有实现生产系统所需的常数时间防护、侧信道防护、标准化参数选择、密钥封装协议、随机数安全审计或完整异常处理。
-
-请不要将本项目直接用于真实通信、生产加密、密钥交换或任何需要实际安全保证的场景。
 
 ## 贡献者与版权
 
